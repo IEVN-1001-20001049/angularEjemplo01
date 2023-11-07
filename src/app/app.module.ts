@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu/menu.component';
 import { MaterialModule } from './material/material.module';
 import { AgregarComponent } from './ult/agregar/agregar.component';
 import { AppRoutingModule } from './menu/menu/app-routing.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { AppRoutingModule } from './menu/menu/app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
